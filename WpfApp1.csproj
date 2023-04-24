@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>LogicielNettoyagePC</AssemblyName>
+    <RootNamespace>LogicielNettoyagePC</RootNamespace>
+    <StartupObject>WpfApp1.App</StartupObject>
+    <ApplicationIcon>icone\kisspng-washing-machine-midea-home-appliance-laundry-drum-washing-machine-5a9d3dab9d6ba9.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons8-balayer-64.png" />
+    <None Remove="icons8-domaine-50.png" />
+    <None Remove="icons8-liste-64.png" />
+    <None Remove="icons8-mises-à-jour-disponibles-64.png" />
+    <None Remove="nettoyage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icone\kisspng-washing-machine-midea-home-appliance-laundry-drum-washing-machine-5a9d3dab9d6ba9.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8-balayer-64.png" />
+    <Resource Include="icons8-domaine-50.png" />
+    <Resource Include="icons8-liste-64.png" />
+    <Resource Include="icons8-mises-à-jour-disponibles-64.png" />
+    <Resource Include="nettoyage.png" />
+  </ItemGroup>
+
+</Project>
